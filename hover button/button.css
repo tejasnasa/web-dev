@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(2, 6, 29);
+}
+
+button {
+    width: 150px;
+    margin-left: 700px;
+    margin-top: 350px;
+    height: 70px;
+    font-size: 1.1rem;
+    color: rgb(208, 62, 101);
+    background: none;
+    border: 2px solid;
+    transition: all 0.2s;
+}
+
+button:hover {
+    transform: translateY(-5px);
+    box-shadow: rgb(244, 209, 53) 0 0.5em 0.5em -0.4em;
+    color: white;
+    border-color: rgb(244, 209, 53);
+    cursor: pointer;
+}
