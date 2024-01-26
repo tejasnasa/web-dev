@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+}
+
+nav {
+    background-color: darkblue;
+    position: sticky;
+    top: 0px;
+}
+
+ul {
+    margin: 0;
+    list-style: none;
+    padding: 1em;
+}
+
+li {
+    background-color: lightblue;
+    display: inline;
+    padding: 0.7em 2em;
+    margin: 1px;
+}
+
+li:hover {
+    background-color: pink;
+}
+
+a {
+    text-decoration: none;
+    color: darkblue;
+}
+
+main {
+    background-color: darkred;
+    padding: 2em;
+    color: white;
+    font-size: 1.1em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 5%;
+}
+
+div {
+    text-align: center;
+}
+
+img {
+    width: 600px;
+    border: 10px solid black;
+    border-radius: 50%;
+}
+
+section {
+    position: sticky;
+}
